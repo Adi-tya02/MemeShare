@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
 
         val queue = Volley.newRequestQueue(this)
          currentImageUrl = "https://meme-api.herokuapp.com/gimme"
-       // currentImageUrl = "https://steppschuh-json-porn-v1.p.rapidapi.com/porn/?offset=0&pornId=5073292679446528&producerId=4554967436230656&pornType=4&count=5&actorId=5681034041491456&genreId=5245132710346752"
 
         // Request a string response from the provided URL.
         val jsonObjectRequest = JsonObjectRequest(Request.Method.GET,currentImageUrl,null,
